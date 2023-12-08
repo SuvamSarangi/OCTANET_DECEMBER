@@ -1,0 +1,125 @@
+/* font-family: 'Dancing Script', cursive; */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+   
+}
+body{
+    background-color:whitesmoke ;
+}
+
+
+
+.nav1{
+    width: 100%;
+    height: 5vh;
+    color:white;
+    background: #222f3e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 99;
+   
+}
+
+.nav1 i{
+    margin: 0 5px;
+}
+
+.nav1 i:hover{
+    transition: all 0.65s;
+    transform: rotateZ(360deg);
+  
+}
+.nav1 a{ 
+    text-decoration: none;
+    color:white;
+    padding: 5px 10px;
+    background: #e67e22;
+}
+.nav2 a:hover{
+    color: #94f907;
+}
+
+.nav2{
+    width: 100%;
+    height: 80px;
+    color:black;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+    z-index: 99;
+   box-shadow: 2px 2px 3px gray;
+    
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    border-radius: 20px 0px 20px 0px;
+}
+
+#img{
+  position: absolute;
+   top: 20%;
+  right: 15%;   
+  
+}
+.left{
+    position: absolute;
+    top: 200px;
+    left: 10%;
+    max-width: 600px;
+    z-index: 99;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter:blur(10px);
+   
+}
+.left h1{
+    /* font-size: 3em; */
+    font-family: 'Poppins', sans-serif;
+}
+.left span{
+    color: #04f166;
+    text-shadow: 2px 3px 5px;
+}
+
+.left a{
+    text-decoration: none;
+    background: rgb(241, 221, 4);
+    color:black;
+    font-weight: bold;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+   
+}
+.left p{
+    color:rgb(26, 2, 50);
+}
+.heading{
+    color: #021933;
+    font-size: 3em;
+}
+#icon{
+  margin: 22% 10%;
+  
+ 
+}
+#icon i{
+    background: rgb(52, 4, 194);
+    border-radius: 50%;
+    color: white;
+    padding: 10px 10px;
+}
+#icon i:hover{
+    transition: all 0.80s;
+    transform: rotateY(360deg);
+}
